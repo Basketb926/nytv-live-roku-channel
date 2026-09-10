@@ -33,7 +33,7 @@ sub setContent()
   m.Image.uri="pkg:/images/NYTV.jpg"
   ContentNode = CreateObject("roSGNode", "ContentNode")
   ContentNode.streamFormat = "hls"
-  ContentNode.url = "https://nyc-prod-catalyst-0.lp-playback.studio/hls/video+7eebji35ecdshga6/10_0/index.m3u8"
+  ContentNode.url = "https://nyc-prod-catalyst-0.lp-playback.studio/hls/video+f169s02ihzgzncku/22_0/index.m3u8"
   ContentNode.ShortDescriptionLine1 = "Live Streaming from New York"
   ContentNode.Description = "Watch live news, events, and programming from New York. Stream directly to your Roku device."
   ContentNode.StarRating = 80
